@@ -11,6 +11,15 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  /* background-color: rgba(255, 0, 0, 0.1); */
+}
+
 /* header */
 
 .logo {
