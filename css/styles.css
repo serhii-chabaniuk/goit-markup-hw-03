@@ -17,7 +17,7 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 
-  /* background-color: rgba(255, 0, 0, 0.1); */
+  background-color: rgba(255, 0, 0, 0.1);
 }
 
 /* header */
@@ -70,19 +70,23 @@ body {
 
 /* main */
 
-.nav,
+.ul-nav,
 .ul-advantage,
 .ul-doing,
 .ul-team,
-.contact-list,
+.ul-contact,
 .ul-filter,
 .ul-portfolio {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .title-advantage,
 .title-portfolio {
   display: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section-title {
@@ -97,6 +101,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -129,12 +135,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .advantege {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section-doing {
@@ -148,6 +158,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section-team {
@@ -161,6 +173,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .h3-team {
@@ -169,12 +183,16 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .p-team {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* footer */
@@ -243,6 +261,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .text-portfolio {
@@ -250,6 +270,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .link-portfolio {
