@@ -17,10 +17,16 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 
-  background-color: rgba(255, 0, 0, 0.1);
+  /* background-color: rgba(255, 0, 0, 0.1); */
 }
 
 /* header */
+
+.container.head {
+  display: flex;
+  align-items: center;
+}
+
 .logo.top {
   margin-right: 93px;
 }
@@ -37,11 +43,6 @@ body {
 
 .logo-accent-head {
   color: var(--title-text-color);
-}
-
-.nav {
-  display: flex;
-  align-items: center;
 }
 
 .nav-link {
