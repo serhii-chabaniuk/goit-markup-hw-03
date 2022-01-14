@@ -17,7 +17,8 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 
-  background-color: rgba(255, 0, 0, 0.1);
+  /* background-color: rgba(255, 0, 0, 0.1); */
+  outline: 1px dashed red;
 }
 
 /* header */
@@ -103,10 +104,12 @@ body {
 
 /* main */
 
-.section-title {
+.container.title {
   padding-top: 200px;
   padding-bottom: 200px;
+}
 
+.section-title {
   background-color: #2f303a;
   text-align: center;
 }
@@ -147,27 +150,48 @@ body {
   color: var(--title-text-color);
 }
 
+.container.advantage {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-advantage {
   background-color: #e5e5e5;
 }
 
+.ul-advantage {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
 .advantege-h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .advantege {
+  width: 270px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.ul-advantage .item:not(:nth-child(4n)) {
+  margin-right: 30px;
 }
 
 .section-doing {
@@ -218,7 +242,6 @@ body {
   margin-bottom: 0;
 }
 
-.ul-advantage,
 .ul-doing,
 .ul-team,
 .ul-filter,
