@@ -11,14 +11,25 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* temporary decision */
+
+.title-advantage,
+.title-portfolio {
+  display: none;
+}
+
+.container {
+  /* background-color: rgba(255, 0, 0, 0.1); */
+  outline: 1px dashed red;
+}
+
+/* container */
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  /* background-color: rgba(255, 0, 0, 0.1); */
-  outline: 1px dashed red;
 }
 
 /* header */
@@ -291,22 +302,6 @@ body {
   text-align: center;
 }
 
-/* main portfolio */
-
-.ul-filter,
-.ul-portfolio {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.title-advantage,
-.title-portfolio {
-  display: none;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 /* footer */
 
 .footer {
@@ -370,6 +365,13 @@ body {
 
 .main-portfolio {
   background: #e5e5e5;
+}
+
+.ul-filter,
+.ul-portfolio {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .btn-filter {
