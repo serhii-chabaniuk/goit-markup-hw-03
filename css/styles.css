@@ -13,14 +13,26 @@ body {
 
 /* temporary decision */
 
-.title-advantage,
-.title-portfolio {
-  display: none;
-}
-
 /* .container {
   outline: 1px dashed red;
+}
+
+.ul-portfolio .item {
+  outline: 1px solid red;
 } */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 /* container */
 
@@ -275,7 +287,7 @@ body {
 
 .ul-team .item {
   padding-bottom: 30px;
-
+  border-radius: 0 0 4px 4px;
   background-color: var(--primary-white-color);
 }
 
@@ -362,8 +374,8 @@ body {
 
 /* main portfolio */
 
-.main-portfolio {
-  background: #e5e5e5;
+.section-portfolio {
+  background-color: #e5e5e5;
 }
 
 .container.portfolio {
@@ -418,26 +430,35 @@ body {
   margin-right: 30px;
 }
 
+.ul-portfolio .item {
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  width: 370px;
+  background-color: var(--primary-white-color);
+}
+
+.figure {
+  width: 100%;
+}
+
 .h2-portfolio {
-  width: 322px;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 0;
 
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  margin-bottom: 0;
 }
 
 .text-portfolio {
-  width: 322px;
   margin-top: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
 
   font-size: 16px;
   line-height: 1.87;
