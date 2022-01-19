@@ -448,8 +448,5 @@ body {
 }
 
 .link-portfolio .item {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding: 20px 24px;
 }
