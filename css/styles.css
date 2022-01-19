@@ -408,11 +408,11 @@ body {
   padding-left: 0;
 }
 
-.ul-portfolio .item:not(:nth-child(3n)) {
+.ul-portfolio > .item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.ul-portfolio .item {
+.ul-portfolio > .item {
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   width: 370px;
@@ -423,10 +423,8 @@ body {
 }
 
 .h2-portfolio {
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
 
   font-weight: bold;
   font-size: 18px;
@@ -436,10 +434,8 @@ body {
 }
 
 .text-portfolio {
-  margin-top: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-size: 16px;
   line-height: 1.87;
@@ -449,4 +445,11 @@ body {
 
 .link-portfolio {
   text-decoration: none;
+}
+
+.link-portfolio .item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
